@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCopyright } from "react-icons/fa";
 
 export const Plan = () => {
   return (
@@ -6,7 +7,9 @@ export const Plan = () => {
       <div className="flex items-center justify-between">
         <div>
           <p className="font-bold">Enterprise</p>
-          <p className="text-stone-500">Pay as you go</p>
+          <p className="text-stone-500 flex items-center gap-1">
+            <FaCopyright /> All rights reserved
+          </p>
         </div>
 
         <button className="px-2 py-1.5 font-medium bg-stone-200 hover:bg-stone-300 transition-colors rounded">
